@@ -1,0 +1,12 @@
+.section__about {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 5rem 1fr;
+    margin-top: 5rem;
+  }
+  
+  .text__about {
+    width: 720px;
+    justify-self: center;
+    font-family: Avenir Next;
+  }
