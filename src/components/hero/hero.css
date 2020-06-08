@@ -1,0 +1,45 @@
+.intro {
+  font-size: 60px;
+  height: 80px;
+  padding-bottom: 3rem;
+}
+
+.subtitle {
+  color: #a62d92;
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.hero--wrapper {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 50vh;
+  padding-top: 5rem;
+}
+
+.hero--content {
+  height: 100%;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+}
+
+@keyframes float {
+  0% {
+    transform: translatey(0px);
+  }
+  50% {
+    transform: translatey(-20px);
+  }
+  100% {
+    transform: translatey(0px);
+  }
+}
+
+.hero--img img {
+  height: 50vh;
+  object-fit: contain;
+  animation: float 6s ease-in-out infinite;
+}
