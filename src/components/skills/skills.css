@@ -1,0 +1,20 @@
+.section__skills {
+  margin-top: 8rem;
+}
+
+.skills--wrapper {
+  width: 20vw;
+}
+
+.skills--list {
+  width: 100%;
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.skills--item {
+  width: 80px;
+  padding: 8px;
+}

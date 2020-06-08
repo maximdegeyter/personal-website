@@ -1,0 +1,35 @@
+.socials--wrapper {
+  margin-top: 4rem;
+}
+
+.socials--link img {
+  width: 48px;
+  height: 48px;
+  transition: transform 0.2s;
+}
+
+.socials--link img:hover {
+  transform: scale(1.2);
+}
+
+ul {
+  list-style: none;
+  width: 336px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.socials--title {
+  position: relative;
+  padding-left: 44px;
+}
+
+.socials--title:after {
+  content: "";
+  width: 36px;
+  border-bottom: solid 2px #eae6b2;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  z-index: 1;
+}

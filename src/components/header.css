@@ -1,7 +1,6 @@
 header {
-  margin-bottom: 1.45rem;
   padding: 1rem 7rem;
-  height: 20vh;
+  height: 15vh;
 }
 
 .header--title {
@@ -45,6 +44,6 @@ nav a {
   border-radius: 50%;
   display: inline-block;
   position: absolute;
-  bottom: 0px;
+  bottom: 8px;
   left: 45%;
 }
