@@ -206,6 +206,7 @@ body {
   -ms-font-feature-settings: "kern", "liga", "clig", "calt";
   -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
   font-feature-settings: "kern", "liga", "clig", "calt";
+  margin: 0;
 }
 img {
   max-width: 100%;
@@ -616,6 +617,11 @@ pre tt:after {
 footer {
   height: 8vh;
   text-align: center;
+  background-color: #241a62;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  bottom: 0;
 }
 
 main {

@@ -7,6 +7,7 @@ import Socials from "../components/socials/socials"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Skills from "../components/skills/skills"
+import Experience from "../components/experience/experience"
 import Down from "../images/arrow-down.png"
 import "./index.css"
 
@@ -25,6 +26,7 @@ const IndexPage = () => (
     </div>
     <About />
     <Skills />
+    <Experience />
   </Layout>
 )
 

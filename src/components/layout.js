@@ -27,7 +27,7 @@ const Layout = ({ children }) => {
     <div className="page-wrap">
       <Header />
       <main>{children}</main>
-      {/* <footer>© Maxim De Geyter {new Date().getFullYear()}</footer> */}
+      <footer>© Maxim De Geyter {new Date().getFullYear()}</footer>
     </div>
   )
 }
