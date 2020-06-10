@@ -259,7 +259,7 @@ h3 {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 1.45rem;
+  margin-bottom: 0;
   color: inherit;
   font-family: quicksand;
   font-weight: bold;
@@ -501,9 +501,6 @@ dt {
 th {
   font-weight: bold;
 }
-li {
-  margin-bottom: calc(1.45rem / 2);
-}
 ol li {
   padding-left: 0;
 }
@@ -616,6 +613,7 @@ pre tt:after {
 
 footer {
   height: 8vh;
+  width: 100vw;
   text-align: center;
   background-color: #241a62;
   display: flex;
