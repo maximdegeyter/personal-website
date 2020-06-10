@@ -5,6 +5,12 @@
   align-items: center;
 }
 
+.contact--intro {
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-style: italic;
+}
+
 .contact--img {
   width: 30vw;
   margin-right: 4rem;

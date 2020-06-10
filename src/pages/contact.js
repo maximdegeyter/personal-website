@@ -11,7 +11,7 @@ const Contact = () => (
   <Layout>
     <SEO title="Contact" />
     <SubTitle title="Contact" />
-    <p>Please say hello!</p>
+    <p className="contact--intro">Please say hello!</p>
     <div className="contact--form-wrapper">
       <img className="contact--img" src={ContactImg}></img>
       <form name="contact" method="POST" data-netlify="true">

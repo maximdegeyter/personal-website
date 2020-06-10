@@ -1,0 +1,20 @@
+.blog--wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.blog--intro {
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.blog--intro a {
+  color: #a62d92;
+}
+
+.blog--img {
+  width: 30vw;
+}

@@ -1,19 +1,26 @@
 import React from "react"
 
 import Layout from "../components/layout"
+import SubTitle from "../components/subtitle/subtitle"
+import BlogImg from "../images/blog.png"
 import SEO from "../components/seo"
+
+import "./blog.css"
 
 const SecondPage = () => (
   <Layout>
     <SEO title="Blog" />
-    <h1>Blog</h1>
-    <p>
-      You can find my blog at{" "}
-      <a href="https://medium.com/maxims-passion-project" target="_blank">
-        Medium
-      </a>
-      !
-    </p>
+    <SubTitle title="Blog" />
+    <div class="blog--wrapper">
+      <p className="blog--intro">
+        You can find my blog at{" "}
+        <a href="https://medium.com/maxims-passion-project" target="_blank">
+          Medium
+        </a>
+        !
+      </p>
+      <img className="blog--img" src={BlogImg}></img>
+    </div>
   </Layout>
 )
 
