@@ -30,7 +30,7 @@ const SecondPage = ({ data }) => {
                 <img className="project--link-img" src={LinkImg}></img>
               </a>
               <div className="img-hover-zoom">
-                <img src={SiteImg}></img>
+                <img src={project.node.frontmatter.image}></img>
               </div>
               <ul className="project--tagList">
                 {project.node.frontmatter.tags.map(tag => (
