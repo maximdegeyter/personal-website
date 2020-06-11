@@ -1,5 +1,5 @@
 ---
-title: Internationaal Straattheater Beveren
+title: Internationaal Straattheaterfestival Beveren
 description: Made as a school project, with the focus on responsiveness (Flexbox
   & CSS Grid).
 tags:
