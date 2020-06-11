@@ -1,5 +1,6 @@
 ---
 title: Danger Zone
+description: A school project.
 tags:
   - Phaser
   - JavaScript
