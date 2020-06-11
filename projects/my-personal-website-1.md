@@ -1,5 +1,6 @@
 ---
 title: My personal website
+description: You're currently looking at it.
 tags:
   - Gatsby
   - Netlify CMS
