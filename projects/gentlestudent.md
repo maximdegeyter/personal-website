@@ -1,5 +1,7 @@
 ---
 title: Gentlestudent
+description: Worked for this project with a team for my student job at Open
+  Summer Of Code 2019.
 tags:
   - React
   - Firebase
