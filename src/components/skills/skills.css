@@ -4,15 +4,17 @@
 .skills--wrapper-all {
   display: flex;
   flex-flow: row;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 
 .skills--wrapper {
-  width: 20vw;
+  width: 40vw;
   padding: 16px;
   background-color: #241a62;
   border-radius: 8px;
   text-align: center;
+  margin: 0.5rem;
 }
 
 .skills--list {
@@ -24,7 +26,17 @@
   align-items: center;
 }
 
+.skills--list li {
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0.5rem;
+}
+
 .skills--item {
   width: 4rem;
-  padding: 8px;
+  height: 4rem;
+  object-fit: contain;
+  margin: 8px;
 }

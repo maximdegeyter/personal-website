@@ -6,6 +6,7 @@
   font-size: 1.5rem;
   font-weight: bold;
   font-style: italic;
+  font-family: Quicksand;
 }
 
 .projects--list {
@@ -29,6 +30,7 @@
 
 .project--link {
   width: 100%;
+  height: 4rem;
   display: flex;
   flex-flow: row;
   justify-content: space-between;

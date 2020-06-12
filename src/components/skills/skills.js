@@ -23,18 +23,23 @@ const Skills = () => (
         <ul className="skills--list">
           <li>
             <img className="skills--item" src={HTML}></img>
+            <p>HTML</p>
           </li>
           <li>
             <img className="skills--item" src={CSS}></img>
+            <p>CSS</p>
           </li>
           <li>
             <img className="skills--item" src={JS}></img>
+            <p>JavaScript</p>
           </li>
           <li>
             <img className="skills--item" src={ReactJS}></img>
+            <p>React</p>
           </li>
           <li>
             <img className="skills--item" src={Sass}></img>
+            <p>Scss</p>
           </li>
         </ul>
       </div>
@@ -43,9 +48,11 @@ const Skills = () => (
         <ul className="skills--list">
           <li>
             <img className="skills--item" src={PHP}></img>
+            <p>PHP</p>
           </li>
           <li>
             <img className="skills--item" src={Node}></img>
+            <p>NodeJS</p>
           </li>
         </ul>
       </div>
@@ -54,9 +61,11 @@ const Skills = () => (
         <ul className="skills--list">
           <li>
             <img className="skills--item" src={SQL}></img>
+            <p>MySQL</p>
           </li>
           <li>
             <img className="skills--item" src={Mongo}></img>
+            <p>MongoDB</p>
           </li>
         </ul>
       </div>
@@ -65,6 +74,7 @@ const Skills = () => (
         <ul className="skills--list">
           <li>
             <img className="skills--item" src={Swift}></img>
+            <p>Swift</p>
           </li>
         </ul>
       </div>
