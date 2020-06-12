@@ -6,10 +6,14 @@
 }
 
 .text__about {
-  width: 720px;
+  width: 30rem;
   justify-self: center;
   font-family: Avenir Next;
   line-height: 1.5;
+}
+
+.text__about strong {
+  color: #A62D92;
 }
 
 .about--wrapper {

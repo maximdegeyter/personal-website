@@ -1,12 +1,30 @@
+.section--projects {
+  min-height: 140vh;
+}
+
 .projects--intro {
   font-size: 1.5rem;
   font-weight: bold;
   font-style: italic;
 }
 
+.projects--list {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: 55vh;
+  grid-gap: 1rem;
+  margin-bottom: 5rem;
+}
+
+.project--wrapper {
+  width: 40vw;
+  height: 100%;
+}
+
 .project {
-  width: 25rem;
-  margin: 1rem;
+  width: 100%;
+  height: 100%;
 }
 
 .project--link {
@@ -23,10 +41,13 @@
 
 .project--link h3 {
   margin-bottom: 0.5rem;
+  color: #eae6b2;
+  width: 90%;
 }
 
 .project--link-img {
-  height: 1rem;
+  width: 10%;
+  transform: scale(0.5);
 }
 
 .img-hover-zoom {
@@ -34,11 +55,13 @@
   border-top-right-radius: 0.5rem;
   overflow: hidden;
   order: 1;
+  height: 50%;
 }
 
 .img-hover-zoom img {
   transition: transform 0.5s ease;
   transform: scale(1.1);
+  object-fit: cover;
 }
 
 .img-hover-zoom:hover img {
@@ -46,11 +69,16 @@
 }
 
 .project--content-wrapper {
-  background-color: #eae6b2;
+  background-color: #241a62;
   border-bottom-left-radius: 0.5rem;
   border-bottom-right-radius: 0.5rem;
-  color: #16102f;
   padding: 0.5rem 1rem;
+  height: 50%;
+}
+
+.project--desc {
+  height: 4rem;
+  padding: 0 0.5rem;
 }
 
 .project--tagList {

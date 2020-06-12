@@ -14,34 +14,39 @@ const Projects = ({ data }) => {
   return (
     <Layout>
       <SEO title="Projects" />
-      <SubTitle title="Projects" />
-      <p className="projects--intro">What I've been working on</p>
-      <ul>
-        {projects.map(project => (
-          <li>
-            <article className="project">
-              <div className="img-hover-zoom">
-                <img src={project.node.frontmatter.image}></img>
-              </div>
-              <div className="project--content-wrapper">
-                <a
-                  className="project--link"
-                  href={project.node.frontmatter.url}
-                  target="_blank"
-                >
-                  <h3>{project.node.frontmatter.title}</h3>
-                  <img className="project--link-img" src={LinkImg}></img>
-                </a>
-                <ul className="project--tagList">
-                  {project.node.frontmatter.tags.map(tag => (
-                    <li className="project--tag">{tag}</li>
-                  ))}
-                </ul>
-              </div>
-            </article>
-          </li>
-        ))}
-      </ul>
+      <section className="section--projects">
+        <SubTitle title="Projects" />
+        <p className="projects--intro">What I've been working on</p>
+        <ul className="projects--list">
+          {projects.map(project => (
+            <li className="project--wrapper">
+              <article className="project">
+                <div className="img-hover-zoom">
+                  <img src={project.node.frontmatter.image}></img>
+                </div>
+                <div className="project--content-wrapper">
+                  <a
+                    className="project--link"
+                    href={project.node.frontmatter.url}
+                    target="_blank"
+                  >
+                    <h3>{project.node.frontmatter.title}</h3>
+                    <img className="project--link-img" src={LinkImg}></img>
+                  </a>
+                  <p className="project--desc">
+                    {project.node.frontmatter.description}
+                  </p>
+                  <ul className="project--tagList">
+                    {project.node.frontmatter.tags.map(tag => (
+                      <li className="project--tag">{tag}</li>
+                    ))}
+                  </ul>
+                </div>
+              </article>
+            </li>
+          ))}
+        </ul>
+      </section>
     </Layout>
   )
 }
@@ -54,6 +59,7 @@ export const pageQuery = graphql`
       edges {
         node {
           frontmatter {
+            description
             image
             tags
             title

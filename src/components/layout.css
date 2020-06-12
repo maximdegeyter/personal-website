@@ -619,13 +619,17 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
-  bottom: 0;
 }
 
 main {
   min-height: 77vh;
   width: 100%;
   padding: 0 7rem;
+}
+
+p {
+  font-size: 1rem;
+  font-family: Avenir Next;
 }
 
 .page-wrap {

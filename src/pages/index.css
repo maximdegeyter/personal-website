@@ -5,8 +5,25 @@
 }
 
 .landingPage--scrollBtn {
+  display: inline-block;
   margin-top: 2rem;
   height: 35px;
   align-self: center;
   cursor: pointer;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+
+.landingPage--scrollBtn:hover,
+.landingPage--scrollBtn:focus,
+.landingPage--scrollBtn:active {
+  -webkit-transform: translateY(0.5rem);
+  transform: translateY(0.5rem);
 }

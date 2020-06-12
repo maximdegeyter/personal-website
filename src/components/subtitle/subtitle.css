@@ -1,8 +1,9 @@
 .subtitle span {
   color: #eae6b2;
-  font-weight: 900;
 }
 
 .subtitle {
   margin-bottom: 3rem;
+  font-family: Quicksand;
+  font-weight: bold;
 }
