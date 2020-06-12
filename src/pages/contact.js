@@ -21,37 +21,41 @@ const Contact = () => (
           data-netlify="true"
           data-netlify-honepot="bot-field"
         >
+          <input type="hidden" name="form-name" value="contact" />
           <p className="contact--input-wrapper">
-            <label for="name" className="contact--label">
+            <label htmlFor="name" className="contact--label">
               Your Name
             </label>
             <input
               className="contact--input"
               type="text"
               name="name"
+              id="name"
               placeholder=" Darth Vader"
               required
             />
           </p>
           <p className="contact--input-wrapper">
-            <label for="email" className="contact--label">
+            <label htmlFor="email" className="contact--label">
               Your Email
             </label>
             <input
               className="contact--input"
               type="email"
               name="email"
+              id="email"
               placeholder="darthvader@deathstar.com"
               required
             />
           </p>
           <p className="contact--input-wrapper contact--input-wrapper__textarea">
-            <label for="message" className="contact--label">
+            <label htmlFor="message" className="contact--label">
               Message
             </label>
             <textarea
               className="contact--input"
               name="message"
+              id="message"
               placeholder="No, I am your father."
               rows="8"
               required
