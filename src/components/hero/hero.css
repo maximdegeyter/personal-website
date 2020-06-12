@@ -4,10 +4,53 @@
   padding-bottom: 3rem;
 }
 
+@keyframes blink {
+  0% {
+    top: -4rem;
+  }
+
+  5% {
+    opacity: 0%;
+  }
+
+  10% {
+    top: 1rem;
+  }
+
+  20% {
+    opacity: 100%;
+  }
+
+  80% {
+    opacity: 100%;
+  }
+
+  90% {
+    top: 1rem;
+  }
+
+  95% {
+    opacity: 0%;
+  }
+
+  100% {
+    top: 6rem;
+  }
+}
+
 .subtitle {
   color: #a62d92;
+  height: 4rem;
+  overflow: hidden;
+}
+
+.subtitle p {
+  position: relative;
+  display: inline-block;
   font-size: 48px;
   font-weight: bold;
+  font-family: Quicksand;
+  animation: blink 4s ease-in-out infinite;
 }
 
 .hero--wrapper {

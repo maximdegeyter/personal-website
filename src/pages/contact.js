@@ -12,9 +12,11 @@ const Contact = () => (
     <SEO title="Contact" />
     <section className="section--contact">
       <SubTitle title="Contact" />
-      <p className="contact--intro">Please say hello!</p>
       <div className="contact--form-wrapper">
-        <img className="contact--img" src={ContactImg}></img>
+        <div>
+          <p className="contact--intro">Hi, let's get in touch!</p>
+          <img className="contact--img" src={ContactImg}></img>
+        </div>
         <form
           name="contact"
           method="POST"

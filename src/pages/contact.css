@@ -8,15 +8,21 @@
   align-items: center;
 }
 
+.contact--form-wrapper div {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
 .contact--intro {
   font-size: 1.5rem;
   font-weight: bold;
   font-style: italic;
+  font-family: Quicksand;
 }
 
 .contact--img {
   width: 30vw;
-  margin-right: 4rem;
 }
 
 .contact--input-wrapper {

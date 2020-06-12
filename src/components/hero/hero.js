@@ -10,7 +10,7 @@ const Hero = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       loop()
-    }, 3000)
+    }, 4000)
     return () => clearInterval(interval)
   }, [])
 
@@ -31,7 +31,9 @@ const Hero = () => {
           👋
         </span>
         <h1>Hi, I'm Maxim!</h1>
-        <p className="subtitle">{randomItem}</p>
+        <div className="subtitle">
+          <p>{randomItem}</p>
+        </div>
       </div>
       <div className="hero--img">
         <img src={Welcome}></img>

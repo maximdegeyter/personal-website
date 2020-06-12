@@ -1,9 +1,11 @@
-.subtitle span {
+.title--section span {
   color: #eae6b2;
 }
 
-.subtitle {
+.title--section {
+  color: #a62d92;
+  font-size: 48px;
+  font-weight: bold;
   margin-bottom: 3rem;
   font-family: Quicksand;
-  font-weight: bold;
 }
