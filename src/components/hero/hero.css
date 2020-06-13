@@ -39,12 +39,12 @@
 }
 
 .subtitle {
-  color: #a62d92;
   height: 4rem;
   overflow: hidden;
 }
 
 .subtitle p {
+  color: #a62d92;
   font-size: 48px;
   font-weight: bold;
   font-family: Quicksand;
