@@ -1,41 +1,41 @@
+@keyframes fadeSlide {
+  0% {
+    transform: translateY(-4rem);
+  }
+
+  2% {
+    opacity: 0;
+  }
+
+  10% {
+    transform: translateY(1rem);
+  }
+
+  20% {
+    opacity: 1;
+  }
+
+  80% {
+    opacity: 1;
+  }
+
+  90% {
+    transform: translateY(1rem);
+  }
+
+  98% {
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(6rem);
+  }
+}
+
 .intro {
   font-size: 60px;
   height: 80px;
   padding-bottom: 3rem;
-}
-
-@keyframes blink {
-  0% {
-    transform: translatey(-4rem);
-  }
-
-  2% {
-    opacity: 0%;
-  }
-
-  10% {
-    transform: translatey(1rem);
-  }
-
-  20% {
-    opacity: 100%;
-  }
-
-  80% {
-    opacity: 100%;
-  }
-
-  90% {
-    transform: translatey(1rem);
-  }
-
-  98% {
-    opacity: 0%;
-  }
-
-  100% {
-    transform: translatey(6rem);
-  }
 }
 
 .subtitle {
@@ -48,7 +48,7 @@
   font-size: 48px;
   font-weight: bold;
   font-family: Quicksand;
-  animation: blink 4s ease-in-out infinite;
+  animation: fadeSlide 4s ease-in-out infinite;
 }
 
 .hero--wrapper {
