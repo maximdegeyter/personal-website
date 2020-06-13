@@ -4,21 +4,27 @@ import "./hero.css"
 
 const Hero = () => {
   const myTitles = ["Front-end Developer", "UI/UX Designer", "Motion Designer"]
-  const [randomItem, setRandomItem] = useState(myTitles[0])
+  let index = 0
+  const [randomItem, setRandomItem] = useState(myTitles[index])
 
+  /* eslint-disable */
   useEffect(() => {
-    let index = 0
     const interval = setInterval(() => {
-      if (index < 2) {
-        index++
-      } else {
-        index = 0
-      }
-
-      setRandomItem(myTitles[index])
+      loop()
     }, 4000)
     return () => clearInterval(interval)
-  }, [myTitles])
+  }, [])
+
+  const loop = () => {
+    if (index < 2) {
+      index++
+    } else {
+      index = 0
+    }
+
+    setRandomItem(myTitles[index])
+  }
+  /* eslint-enable */
 
   return (
     <div className="hero--wrapper">
