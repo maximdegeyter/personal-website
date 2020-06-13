@@ -48,6 +48,7 @@
   font-size: 48px;
   font-weight: bold;
   font-family: Quicksand;
+  animation-delay: 0.2s;
   animation: fadeSlide 4s ease-in-out infinite;
 }
 
