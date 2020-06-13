@@ -6,15 +6,15 @@
 
 @keyframes blink {
   0% {
-    top: -4rem;
+    transform: translatey(-4rem);
   }
 
-  5% {
+  2% {
     opacity: 0%;
   }
 
   10% {
-    top: 1rem;
+    transform: translatey(1rem);
   }
 
   20% {
@@ -26,15 +26,15 @@
   }
 
   90% {
-    top: 1rem;
+    transform: translatey(1rem);
   }
 
-  95% {
+  98% {
     opacity: 0%;
   }
 
   100% {
-    top: 6rem;
+    transform: translatey(6rem);
   }
 }
 
@@ -45,8 +45,6 @@
 }
 
 .subtitle p {
-  position: relative;
-  display: inline-block;
   font-size: 48px;
   font-weight: bold;
   font-family: Quicksand;
