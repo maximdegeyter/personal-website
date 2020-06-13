@@ -15,7 +15,11 @@ const Contact = () => (
       <div className="contact--form-wrapper">
         <div>
           <p className="contact--intro">Hi, let's get in touch!</p>
-          <img className="contact--img" src={ContactImg}></img>
+          <img
+            className="contact--img"
+            src={ContactImg}
+            alt="illustration of someone on the phone"
+          ></img>
         </div>
         <form
           name="contact"
@@ -23,7 +27,12 @@ const Contact = () => (
           data-netlify="true"
           data-netlify-honepot="bot-field"
         >
-          <input type="hidden" name="form-name" value="contact" />
+          <input
+            type="hidden"
+            aria-label="text"
+            name="form-name"
+            value="contact"
+          />
           <p className="contact--input-wrapper">
             <label htmlFor="name" className="contact--label">
               Your Name
@@ -34,6 +43,7 @@ const Contact = () => (
               name="name"
               id="name"
               placeholder=" Darth Vader"
+              aria-label="text"
               required
             />
           </p>
@@ -47,6 +57,7 @@ const Contact = () => (
               name="email"
               id="email"
               placeholder="darthvader@deathstar.com"
+              aria-label="text"
               required
             />
           </p>
@@ -60,6 +71,7 @@ const Contact = () => (
               id="message"
               placeholder="No, I am your father."
               rows="8"
+              aria-label="text"
               required
             ></textarea>
           </p>

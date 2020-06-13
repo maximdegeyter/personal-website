@@ -14,12 +14,16 @@ const SecondPage = () => (
     <div class="blog--wrapper">
       <p className="blog--intro">
         You can find my blog at{" "}
-        <a href="https://medium.com/maxims-passion-project" target="_blank">
+        <a
+          href="https://medium.com/maxims-passion-project"
+          target="_blank"
+          rel="noreferrer"
+        >
           Medium
         </a>
         !
       </p>
-      <img className="blog--img" src={BlogImg}></img>
+      <img className="blog--img" src={BlogImg} alt="illustration of someone using a laptop"></img>
     </div>
   </Layout>
 )

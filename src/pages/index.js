@@ -22,6 +22,7 @@ const IndexPage = () => (
         src={Down}
         onClick={() => scrollTo(".section__about")}
         alt="An illustration of Maxim"
+        role="presentation"
       ></img>
     </div>
     <About />

@@ -22,16 +22,24 @@ const Projects = ({ data }) => {
             <li className="project--wrapper">
               <article className="project">
                 <div className="img-hover-zoom">
-                  <img src={project.node.frontmatter.image}></img>
+                  <img
+                    src={project.node.frontmatter.image}
+                    alt={project.node.frontmatter.title}
+                  ></img>
                 </div>
                 <div className="project--content-wrapper">
                   <a
                     className="project--link"
                     href={project.node.frontmatter.url}
                     target="_blank"
+                    rel="noreferrer"
                   >
                     <h3>{project.node.frontmatter.title}</h3>
-                    <img className="project--link-img" src={LinkImg}></img>
+                    <img
+                      className="project--link-img"
+                      src={LinkImg}
+                      alt="external link icon"
+                    ></img>
                   </a>
                   <p className="project--desc">
                     {project.node.frontmatter.description}

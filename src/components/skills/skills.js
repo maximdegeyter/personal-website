@@ -22,23 +22,23 @@ const Skills = () => (
         <h4>Front-end</h4>
         <ul className="skills--list">
           <li>
-            <img className="skills--item" src={HTML}></img>
+            <img className="skills--item" src={HTML} alt="HTML5 logo"></img>
             <p>HTML</p>
           </li>
           <li>
-            <img className="skills--item" src={CSS}></img>
+            <img className="skills--item" src={CSS} alt="CSS3 logo"></img>
             <p>CSS</p>
           </li>
           <li>
-            <img className="skills--item" src={JS}></img>
+            <img className="skills--item" src={JS} alt="JavaScript logo"></img>
             <p>JavaScript</p>
           </li>
           <li>
-            <img className="skills--item" src={ReactJS}></img>
+            <img className="skills--item" src={ReactJS} alt="React logo"></img>
             <p>React</p>
           </li>
           <li>
-            <img className="skills--item" src={Sass}></img>
+            <img className="skills--item" src={Sass} alt="Scss logo"></img>
             <p>Scss</p>
           </li>
         </ul>
@@ -47,11 +47,11 @@ const Skills = () => (
         <h4>Back-end</h4>
         <ul className="skills--list">
           <li>
-            <img className="skills--item" src={PHP}></img>
+            <img className="skills--item" src={PHP} alt="PHP logo"></img>
             <p>PHP</p>
           </li>
           <li>
-            <img className="skills--item" src={Node}></img>
+            <img className="skills--item" src={Node} alt="NodeJS logo"></img>
             <p>NodeJS</p>
           </li>
         </ul>
@@ -60,11 +60,11 @@ const Skills = () => (
         <h4>Database</h4>
         <ul className="skills--list">
           <li>
-            <img className="skills--item" src={SQL}></img>
+            <img className="skills--item" src={SQL} alt="MySQL logo"></img>
             <p>MySQL</p>
           </li>
           <li>
-            <img className="skills--item" src={Mongo}></img>
+            <img className="skills--item" src={Mongo} alt="MongoDB logo"></img>
             <p>MongoDB</p>
           </li>
         </ul>
@@ -73,7 +73,7 @@ const Skills = () => (
         <h4>Native</h4>
         <ul className="skills--list">
           <li>
-            <img className="skills--item" src={Swift}></img>
+            <img className="skills--item" src={Swift} alt="Swift logo"></img>
             <p>Swift</p>
           </li>
         </ul>

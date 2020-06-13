@@ -7,7 +7,11 @@ const About = () => (
   <section className="section__about">
     <SubTitle title="About" />
     <div className="about--wrapper">
-      <img className="img" src={Me}></img>
+      <img
+        className="img"
+        src={Me}
+        alt="Illustration of someone programming"
+      ></img>
       <p className="text__about">
         I'm a 24 year old <strong>Devine</strong> (Digital design & development)
         alumni from <strong>Ghent, Belgium</strong>. I'm currently looking for
