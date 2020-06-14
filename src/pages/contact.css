@@ -42,7 +42,7 @@
 }
 
 .contact--input {
-  background-color: #241a62;
+  background-color: var(--secondaryBackgroundColor);
   border: solid 1px #312d94;
   border-radius: 4px;
   color: white;
@@ -51,7 +51,7 @@
 
 .contact--input:focus {
   outline: none;
-  border-color: #a62d92;
+  border-color: var(--pinkColor);
 }
 
 .contact--button {
@@ -59,8 +59,8 @@
 }
 
 .button--primary {
-  background-color: #a62d92;
-  border: solid 1px #a62d92;
+  background-color: var(--pinkColor);
+  border: solid 1px var(--pinkColor);
   border-radius: 4px;
   color: white;
   padding: 4px 32px;

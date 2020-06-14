@@ -1,0 +1,11 @@
+:root {
+  /* COLORS */
+  --backgroundColor: #16102f;
+  --secondaryBackgroundColor: #241a62;
+  --lightColor: #eae6b2;
+  --pinkColor: #a62d92;
+
+  --spacing-sm: 0.5rem;
+  --spacing: 1rem;
+  --spacing-lg: 2rem;
+}

@@ -1,5 +1,7 @@
+@import "./css/vars.css";
+
 header {
-  padding: 1rem 7rem;
+  padding: var(--spacing) 7rem;
   height: 15vh;
 }
 
@@ -27,7 +29,7 @@ nav {
 
 nav a {
   text-decoration: none;
-  color: #eae6b2;
+  color: var(--lightColor);
 }
 
 .navItem__active {
@@ -40,7 +42,7 @@ nav a {
   content: "";
   height: 8px;
   width: 8px;
-  background-color: #a62d92;
+  background-color: var(--pinkColor);
   border-radius: 50%;
   display: inline-block;
   position: absolute;

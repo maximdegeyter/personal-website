@@ -1,3 +1,5 @@
+@import "./css/vars.css";
+
 .section--projects {
   min-height: 140vh;
 }
@@ -14,7 +16,7 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-auto-rows: 55vh;
-  grid-gap: 1rem;
+  grid-gap: var(--spacing);
   margin-bottom: 5rem;
 }
 
@@ -37,13 +39,13 @@
   padding: 8px;
   align-items: center;
   text-decoration: none;
-  color: #16102f;
+  color: var(--backgroundColor);
   order: 2;
 }
 
 .project--link h3 {
-  margin-bottom: 0.5rem;
-  color: #eae6b2;
+  margin-bottom: var(--spacing-sm);
+  color: var(--lightColor);
   width: 90%;
 }
 
@@ -53,8 +55,8 @@
 }
 
 .img-hover-zoom {
-  border-top-left-radius: 0.5rem;
-  border-top-right-radius: 0.5rem;
+  border-top-left-radius: var(--spacing-sm);
+  border-top-right-radius: var(--spacing-sm);
   overflow: hidden;
   order: 1;
   height: 50%;
@@ -72,16 +74,16 @@
 }
 
 .project--content-wrapper {
-  background-color: #241a62;
-  border-bottom-left-radius: 0.5rem;
-  border-bottom-right-radius: 0.5rem;
-  padding: 0.5rem 1rem;
+  background-color: var(--secondaryBackgroundColor);
+  border-bottom-left-radius: var(--spacing-sm);
+  border-bottom-right-radius: var(--spacing-sm);
+  padding: var(--spacing-sm) var(--spacing);
   height: 50%;
 }
 
 .project--desc {
   height: 4rem;
-  padding: 0 0.5rem;
+  padding: 0 var(--spacing-sm);
 }
 
 .project--tagList {
@@ -93,10 +95,10 @@
 }
 
 .project--tag {
-  background-color: #a62d92;
+  background-color: var(--pinkColor);
   color: white;
   padding: 4px 24px;
   border-radius: 24px;
   font-size: 14px;
-  margin-right: 1rem;
+  margin-right: var(--spacing-sm);
 }

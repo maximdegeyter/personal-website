@@ -3,7 +3,7 @@
 }
 
 .timeline {
-  border-left: 4px solid #a62d92;
+  border-left: 4px solid var(--pinkColor);
   border-bottom-right-radius: 8px;
   border-top-right-radius: 8px;
   margin: 3rem auto;
@@ -13,11 +13,11 @@
   display: flex;
   flex-flow: column;
   width: 40vw;
-  background-color: #241a62;
+  background-color: var(--secondaryBackgroundColor);
 }
 
 .event {
-  border-bottom: 1px dashed #16102f;
+  border-bottom: 1px dashed var(--backgroundColor);
   padding-bottom: 2rem;
   margin-bottom: 2rem;
   position: relative;
@@ -45,8 +45,8 @@
 }
 
 .event:after {
-  background-color: #16102f;
-  box-shadow: 0 0 0 8px #a62d92;
+  background-color: var(--backgroundColor);
+  box-shadow: 0 0 0 8px var(--pinkColor);
   left: -60px;
   border-radius: 50%;
   height: 8px;

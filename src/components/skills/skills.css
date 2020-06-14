@@ -11,7 +11,7 @@
 .skills--wrapper {
   width: 40vw;
   padding: 16px;
-  background-color: #241a62;
+  background-color: var(--secondaryBackgroundColor);
   border-radius: 8px;
   text-align: center;
   margin: 0.5rem;

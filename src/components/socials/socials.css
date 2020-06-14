@@ -27,7 +27,7 @@ ul {
 .socials--title:after {
   content: "";
   width: 36px;
-  border-bottom: solid 2px #eae6b2;
+  border-bottom: solid 2px var(--lightColor);
   position: absolute;
   left: 0;
   top: 50%;

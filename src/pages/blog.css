@@ -13,7 +13,7 @@
 }
 
 .blog--intro a {
-  color: #a62d92;
+  color: var(--pinkColor);
 }
 
 .blog--img {

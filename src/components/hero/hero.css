@@ -1,3 +1,5 @@
+@import "./css/vars.css";
+
 @keyframes fadeSlide {
   0% {
     transform: translateY(-4rem);
@@ -44,11 +46,11 @@
 }
 
 .subtitle p {
-  color: #a62d92;
+  color: var(--pinkColor);
   font-size: 48px;
   font-weight: bold;
   font-family: Quicksand;
-  padding-top: 1rem;
+  padding-top: var(--spacing);
 }
 
 .subtitle-animate p {

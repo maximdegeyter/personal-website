@@ -12,7 +12,7 @@
 }
 
 .text__about strong {
-  color: #A62D92;
+  color: var(--pinkColor);
 }
 
 .about--wrapper {

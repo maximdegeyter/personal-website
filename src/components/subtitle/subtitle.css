@@ -1,9 +1,9 @@
 .title--section span {
-  color: #eae6b2;
+  color: var(--lightColor);
 }
 
 .title--section {
-  color: #a62d92;
+  color: var(--pinkColor);
   font-size: 48px;
   font-weight: bold;
   margin-bottom: 3rem;

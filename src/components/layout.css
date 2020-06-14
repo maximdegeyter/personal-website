@@ -1,3 +1,5 @@
+@import "./css/vars.css";
+
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -196,8 +198,8 @@ html {
   box-sizing: inherit;
 }
 body {
-  background-color: #16102f;
-  color: #eae6b2;
+  background-color: var(--backgroundColor);
+  color: var(--lightColor);
   font-family: quicksand;
   font-weight: normal;
   word-wrap: break-word;
@@ -280,7 +282,7 @@ h4 {
   font-family: quicksand;
   font-weight: bold;
   text-rendering: optimizeLegibility;
-  font-size: 1rem;
+  font-size: var(--spacing);
   line-height: 1.1;
 }
 h5 {
@@ -411,7 +413,7 @@ table {
   padding-right: 0;
   padding-top: 0;
   margin-bottom: 1.45rem;
-  font-size: 1rem;
+  font-size: var(--spacing);
   line-height: 1.45rem;
   border-collapse: collapse;
   width: 100%;
@@ -615,7 +617,7 @@ footer {
   height: 8vh;
   width: 100vw;
   text-align: center;
-  background-color: #241a62;
+  background-color: var(--secondaryBackgroundColor);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -628,7 +630,7 @@ main {
 }
 
 p {
-  font-size: 1rem;
+  font-size: var(--spacing);
   font-family: prompt;
   font-weight: 300;
 }
