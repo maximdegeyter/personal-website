@@ -8,7 +8,7 @@
   }
 
   10% {
-    transform: translateY(1rem);
+    transform: translateY(0rem);
   }
 
   20% {
@@ -20,7 +20,7 @@
   }
 
   90% {
-    transform: translateY(1rem);
+    transform: translateY(0rem);
   }
 
   98% {
@@ -28,7 +28,7 @@
   }
 
   100% {
-    transform: translateY(6rem);
+    transform: translateY(4rem);
   }
 }
 
@@ -48,7 +48,10 @@
   font-size: 48px;
   font-weight: bold;
   font-family: Quicksand;
-  animation-delay: 0.2s;
+  padding-top: 1rem;
+}
+
+.subtitle-animate p {
   animation: fadeSlide 4s ease-in-out infinite;
 }
 

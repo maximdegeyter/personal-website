@@ -40,3 +40,7 @@
   object-fit: contain;
   margin: 8px;
 }
+
+.skills--item-text {
+  margin-top: 0.5rem;
+}

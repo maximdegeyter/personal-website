@@ -6,10 +6,12 @@ const Hero = () => {
   const myTitles = ["Front-end Developer", "UI/UX Designer", "Motion Designer"]
   let index = 0
   const [randomItem, setRandomItem] = useState(myTitles[index])
+  const [doesExist, setdoesExist] = useState(false)
 
   /* eslint-disable */
   useEffect(() => {
     const interval = setInterval(() => {
+      randomItem ? setdoesExist(true) : setdoesExist(false)
       loop()
     }, 4000)
     return () => clearInterval(interval)
@@ -33,7 +35,7 @@ const Hero = () => {
           👋
         </span>
         <h1>Hi, I'm Maxim!</h1>
-        <div className="subtitle">
+        <div className={doesExist ? `subtitle subtitle-animate` : `subtitle`}>
           <p>{randomItem}</p>
         </div>
       </div>
