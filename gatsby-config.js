@@ -41,7 +41,6 @@ module.exports = {
         fonts: [
           `Quicksand\:300,400,700`,
           `Prompt\:300,400,700,900`,
-          `source sans pro\:300,400,400i,700`, // you can also specify font weights and styles
         ],
         display: "swap",
       },

@@ -1,4 +1,4 @@
-@import "./css/vars.css";
+@import "../../styles/vars.css";
 
 @keyframes fadeSlide {
   0% {
@@ -49,7 +49,7 @@
   color: var(--pinkColor);
   font-size: 48px;
   font-weight: bold;
-  font-family: Quicksand;
+  font-family: 'Quicksand', sans-serif;
   padding-top: var(--spacing);
 }
 

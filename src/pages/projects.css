@@ -1,4 +1,4 @@
-@import "./css/vars.css";
+@import "../styles/vars.css";
 
 .section--projects {
   min-height: 140vh;
@@ -8,7 +8,7 @@
   font-size: 1.5rem;
   font-weight: bold;
   font-style: italic;
-  font-family: Quicksand;
+  font-family: "Quicksand", sans-serif;
 }
 
 .projects--list {

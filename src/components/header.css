@@ -1,4 +1,4 @@
-@import "./css/vars.css";
+@import "../styles/vars.css";
 
 header {
   padding: var(--spacing) 7rem;
