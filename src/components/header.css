@@ -65,10 +65,18 @@ nav a {
   nav {
     width: 50vw;
   }
+
+  .navItem__active::before {
+    bottom: -24px;
+  }
 }
 
 @media (min-width: 60em) {
   header {
     padding: var(--spacing) 7rem;
+  }
+
+  nav {
+    width: 30vw;
   }
 }

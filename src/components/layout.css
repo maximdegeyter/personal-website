@@ -9,6 +9,16 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+body::-webkit-scrollbar {
+  width: 0.5rem;
+}
+body::-webkit-scrollbar-track {
+  border-radius: 1rem;
+}
+body::-webkit-scrollbar-thumb {
+  background-color: var(--pinkColor);
+  border-radius: 1rem;
+}
 article,
 aside,
 details,
@@ -229,12 +239,12 @@ h1 {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 1.45rem;
+  margin-bottom: 1rem;
   color: inherit;
   font-family: prompt;
   font-weight: 700;
   text-rendering: optimizeLegibility;
-  font-size: 4rem;
+  font-size: 3rem;
   line-height: 1.1;
 }
 h2 {
@@ -626,7 +636,7 @@ footer {
 main {
   min-height: 77vh;
   width: 100%;
-  padding: 0 7rem;
+  padding: var(--spacing);
 }
 
 p {
@@ -641,4 +651,21 @@ p {
   flex-flow: column;
   justify-content: space-between;
   margin: 0 auto;
+}
+
+@media (min-width: 48em) {
+  main {
+    padding: var(--spacing) 3rem;
+  }
+
+  h1 {
+    font-size: 4rem;
+    margin-bottom: 1.45rem;
+  }
+}
+
+@media (min-width: 60em) {
+  main {
+    padding: var(--spacing) 7rem;
+  }
 }

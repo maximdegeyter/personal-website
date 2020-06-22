@@ -3,13 +3,13 @@
 }
 .skills--wrapper-all {
   display: flex;
-  flex-flow: row;
+  flex-flow: column;
   flex-wrap: wrap;
   justify-content: space-between;
 }
 
 .skills--wrapper {
-  width: 40vw;
+  width: 100%;
   padding: 16px;
   background-color: var(--secondaryBackgroundColor);
   border-radius: 8px;
@@ -43,4 +43,21 @@
 
 .skills--item-text {
   margin-top: 0.5rem;
+}
+
+@media (min-width: 48em) {
+}
+
+@media (min-width: 60em) {
+  .skills--wrapper-all {
+    flex-flow: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .skills--wrapper {
+    width: 45%;
+    padding: 0.5rem;
+    min-height: 20rem;
+  }
 }

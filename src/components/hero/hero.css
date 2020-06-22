@@ -35,9 +35,9 @@
 }
 
 .intro {
-  font-size: 60px;
-  height: 80px;
-  padding-bottom: 3rem;
+  font-size: 3rem;
+  height: 4rem;
+  padding-bottom: 1rem;
 }
 
 .subtitle {
@@ -47,7 +47,7 @@
 
 .subtitle p {
   color: var(--pinkColor);
-  font-size: 48px;
+  font-size: 2rem;
   font-weight: bold;
   font-family: Quicksand;
   padding-top: var(--spacing);
@@ -59,11 +59,11 @@
 
 .hero--wrapper {
   display: flex;
-  flex-flow: row;
+  flex-flow: column-reverse;
   justify-content: space-between;
   align-items: center;
-  height: 50vh;
-  padding-top: 5rem;
+  height: 60vh;
+  padding-top: var(--spacing);
 }
 
 .hero--content {
@@ -75,18 +75,47 @@
 
 @keyframes float {
   0% {
-    transform: translatey(0px);
+    transform: translatey(0rem);
   }
   50% {
-    transform: translatey(-20px);
+    transform: translatey(-1rem);
   }
   100% {
-    transform: translatey(0px);
+    transform: translatey(0rem);
   }
 }
 
 .hero--img img {
-  height: 50vh;
+  height: 25vh;
   object-fit: contain;
   animation: float 6s ease-in-out infinite;
+}
+
+@media (min-width: 48em) {
+  .hero--wrapper {
+    padding-top: 3rem;
+  }
+
+  .intro {
+    font-size: 3rem;
+    height: 5rem;
+    padding-bottom: 2rem;
+  }
+}
+
+@media (min-width: 60em) {
+  .hero--wrapper {
+    flex-flow: row;
+    padding-top: 5rem;
+  }
+
+  .intro {
+    font-size: 3.5rem;
+    height: 5.5rem;
+    padding-bottom: 2rem;
+  }
+
+  .hero--wrapper img {
+    height: 50vh;
+  }
 }

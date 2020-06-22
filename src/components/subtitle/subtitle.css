@@ -4,8 +4,20 @@
 
 .title--section {
   color: var(--pinkColor);
-  font-size: 48px;
+  font-size: 2rem;
   font-weight: bold;
   margin-bottom: 3rem;
   font-family: Quicksand;
+}
+
+@media (min-width: 48em) {
+  .title--section {
+    font-size: 2.5rem;
+  }
+}
+
+@media (min-width: 60em) {
+  .title--section {
+    font-size: 3rem;
+  }
 }

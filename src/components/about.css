@@ -6,7 +6,8 @@
 }
 
 .text__about {
-  width: 30rem;
+  width: 100%;
+  padding: 0 var(--spacing);
   justify-self: center;
   line-height: 1.5;
 }
@@ -17,7 +18,7 @@
 
 .about--wrapper {
   display: flex;
-  flex-flow: row;
+  flex-flow: column;
   justify-content: space-evenly;
   align-items: center;
 }
@@ -25,4 +26,19 @@
 .img {
   width: 300px;
   height: 300px;
+}
+
+@media (min-width: 48em) {
+  
+}
+
+@media (min-width: 60em) {
+  .about--wrapper {
+    flex-flow: row;
+  }
+
+  .text__about {
+    width: 30rem;
+    padding: 0;
+  }
 }
